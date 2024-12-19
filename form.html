@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index2.css">
+</head>
+<body>
+        <a href="home.html"><div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div></a>
+          
+          <script>
+          function myFunction(x) {
+            x.classList.toggle("change");
+          }
+          </script>
+    <h1 style="margin-left: 700px;">Reserver Maintenant </h1>
+    <form >
+        <input type="text" class="rm" placeholder="nom"><br><br>
+        <input type="text" id="rl" placeholder="prenom" class="b1" >
+        <input type="email" id="rl" placeholder="xxx@gmail.com" class="b1" >
+        <label for="">date d'arriver</label>
+        <input type="date" id="rl" placeholder="date d'arrivee"  class="b1" >
+        <label for="">date de depart</label>
+        <input type="date" id="rl" placeholder="date de depart" class="b1" >
+        <a href="inscri.html"><input type="submit" id="n1" value="Envoyer" ></a>
+        <input type="reset" id="n2" value="Annuler" >
+    </form>
+</body>
+</html>
